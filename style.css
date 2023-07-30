@@ -1,0 +1,57 @@
+#container{
+    text-align: center;
+    font-size: 2.1rem;
+    /* border: 2px solid black; */
+}
+
+#textinput{
+    padding: 9px 50px;
+    background-color: aqua;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+input[type="text"]::placeholder{
+    color: rgb(19, 54, 193);
+    font-size: 20px;
+}
+
+/* #todocontainer{
+    font-size: 20px;
+    flex-direction: column;
+    /* border: 20px solid blue; */
+/* } */
+.todo{
+    margin-top: 25px;
+    margin-right: 25px;
+}
+#todocontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph-styling{
+    margin: 0px;
+    cursor: pointer;
+    font-size: 20px;
+    display: inline;
+}
+.item-container {
+margin-bottom: 5px;
+
+}
+
+.done-button ,#submit, #clear{
+background-color: #4CAF50;
+color: white;
+border: none;
+padding: 8px 12px;
+cursor: pointer;
+border-radius: 4px;
+font-size: 14px;
+margin-left: 10px;
+}
+
+.done-button:hover {
+background-color: #45a049;
+} 
